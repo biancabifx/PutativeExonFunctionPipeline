@@ -1,0 +1,34 @@
+##How to run all of the *_SQ.sh scripts in the snapgtex directory using the terminal:
+
+for script in ./*_SQ.sh
+do
+    nohup bash "$script" & disown
+done
+
+######################################
+
+for script in ./*j2j_SQ.sh
+do
+    nohup bash "$script" & disown
+done
+
+######################################
+
+for script in ./*_ex2ex_SQ.sh
+do
+    nohup bash "$script" & disown
+done
+
+######################################
+
+for script in ./*_canonical_SQ.sh
+do
+    nohup bash "$script" & disown
+done
+
+######################################
+
+for script in ./*_hg19_ex2ex_SQ.sh
+do
+    nohup bash "$script" & disown
+done
